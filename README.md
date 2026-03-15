@@ -7,7 +7,7 @@ Tracks 5 health protocols for software engineers: hydration, pomodoro/standing, 
 ## Install
 
 ```bash
-go install github.com/orchestra-mcp/plugin-health/cmd@latest
+go get github.com/orchestra-mcp/plugin-health
 ```
 
 ## Usage
