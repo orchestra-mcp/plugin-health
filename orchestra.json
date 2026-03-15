@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-health",
+    "description": "Health management tools plugin for Orchestra MCP. Powered by Health Debug.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-health/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-health"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "plugin-health",
+    "extra": {
+        "plugin-id": "tools.health",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
